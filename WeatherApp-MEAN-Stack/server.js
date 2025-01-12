@@ -144,8 +144,8 @@ app.delete("/api/favorites/:id", async (req, res) => {
     });
   }
 });
-const GOOGLE_API_KEY = "AIzaSyB7iu_ga0ldHrkHlYNKrDCCNmqOqyOCdnU";
-const WEATHER_API_KEY = "wQvcUl8ejaH6q0mHXuvskaFPsyFY9Ibj";
+const GOOGLE_API_KEY = "API_KEY";
+const WEATHER_API_KEY = "API_KEY";
 
 app.get("/", (req, res) => {
   res.send("Server is running");

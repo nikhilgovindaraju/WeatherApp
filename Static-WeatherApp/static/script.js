@@ -186,7 +186,7 @@ form.addEventListener("input", () => {
 
 
   async function getLocation() {
-    const accessToken = "26239f0f1980e6"; 
+    const accessToken = "ACCESS_TOKEN"; 
 
     try {
       const response = await fetch(
@@ -212,7 +212,7 @@ form.addEventListener("input", () => {
   }
 
   async function getFormattedAddress(street_value, city_value, state_value) {
-    const apiKey = "AIzaSyDWZuWReQXAFCFu-fTwPb15ThgcQoslQEc";
+    const apiKey = "API_KEY";
     const address = `${street_value}, ${city_value}, ${state_value}`;
 
     try {
@@ -431,7 +431,7 @@ form.addEventListener("input", () => {
     );
     const latitude = data.data.timelines[0].intervals[0].values.latitude;
     const longitude = data.data.timelines[0].intervals[0].values.longitude;
-    const apiKey = "wQvcUl8ejaH6q0mHXuvskaFPsyFY9Ibj";
+    const apiKey = "API_KEY";
 
     const Precipitation = values.precipitationType;
     const chanceOfRain = values.precipitationProbability;

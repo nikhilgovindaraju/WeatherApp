@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, send_from_directory
 import requests
 
 app = Flask(__name__)
-api_key = 'wQvcUl8ejaH6q0mHXuvskaFPsyFY9Ibj'
+api_key = 'API_KEY'
 
 @app.route('/')
 def index():
